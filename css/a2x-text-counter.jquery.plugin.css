@@ -1,0 +1,10 @@
+.a2x-counter {
+  position: relative;
+  float: right;
+  text-align: center;
+  border: 1px solid #eee;
+  padding: 5px 10px;
+  color: #111;
+  font-size: 12px;
+  max-width: 90px;
+}

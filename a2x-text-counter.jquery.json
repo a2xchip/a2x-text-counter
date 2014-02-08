@@ -1,0 +1,25 @@
+{
+"name": "a2x-text-counter",
+"title": "a2x text counter",
+"description": "jQuery plugin for text symbols counting in textarea and input elements",
+"keywords": [
+"count",
+"length",
+"count",
+"countdown"
+],
+"version": "0.1",
+"author": {
+"name": "a2xchip",
+"url": "https://twitter.com/a2xchip"
+},
+"licenses": [
+{
+"type": "MIT",
+"url": "http://opensource.org/licenses/MIT"
+}
+],
+"dependencies": {
+"jquery": ">=1.10.2"
+}
+}

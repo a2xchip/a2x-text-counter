@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>a2x-text-counter by a2xchip</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="https://raw2.github.com/a2xchip/a2x-text-counter/master/css/a2x-text-counter.jquery.plugin.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>a2x-text-counter</h1>
+        <p>jQuery text counter plugin</p>
+
+        <p class="view"><a href="https://github.com/a2xchip/a2x-text-counter">View the Project on GitHub <small>a2xchip/a2x-text-counter</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/a2xchip/a2x-text-counter/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/a2xchip/a2x-text-counter/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/a2xchip/a2x-text-counter">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h1>
+
+<p>a2x-text-counter is simple jQuery plugin which counts the number of symbols you intered in textarea or input[text] element.</p>
+
+<p>There are two common strategies. If your textarea has <code>maxlength</code> attribute the plugin behaves as countdown counter. Elsewhere it counts the number of entered symbols. </p>
+
+<h1>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'#element'</span><span class="p">).</span><span class="nx">a2xCounter</span><span class="p">();</span>
+</pre></div>
+      <p>
+        <input type="text" id="testtext"/>
+      </p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/a2xchip">a2xchip</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="javascripts/scale.fix.js"></script>
+    <script src="https://raw2.github.com/a2xchip/a2x-text-counter/master/js/a2x-text-counter.jquery.plugin.js"></script>
+    <script>
+      $('testtext').a2xCounter();
+    </script>
+  </body>
+</html>

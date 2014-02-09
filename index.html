@@ -6,7 +6,7 @@
     <title>a2x-text-counter by a2xchip</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="https://raw2.github.com/a2xchip/a2x-text-counter/master/css/a2x-text-counter.jquery.plugin.css">
+    <link rel="stylesheet" href="css/a2x-text-counter.jquery.plugin.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
@@ -41,8 +41,17 @@
 
 <div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'#element'</span><span class="p">).</span><span class="nx">a2xCounter</span><span class="p">();</span>
 </pre></div>
+      <h1>
+<a name="examples" class="anchor" href="#examples"><span class="octicon octicon-link"></span></a>Examples</h1>
+      <h3>Count example</h3>
       <p>
         <input type="text" id="testtext"/>
+      </p>
+      <h3>  
+        Countdown example
+      </h3>
+      <p>
+        <textarea id="testtext2" maxlength="255" cols="50" rows="5"></textarea>
       </p>
       </section>
       <footer>
@@ -52,9 +61,10 @@
     </div>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="javascripts/scale.fix.js"></script>
-    <script src="https://raw2.github.com/a2xchip/a2x-text-counter/master/js/a2x-text-counter.jquery.plugin.js"></script>
+    <script src="js/a2x-text-counter.jquery.plugin.js"></script>
     <script>
-      $('testtext').a2xCounter();
+      $('#testtext').a2xCounter();
+      $('#testtext2').a2xCounter();
     </script>
   </body>
 </html>

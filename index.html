@@ -6,6 +6,7 @@
     <title>a2x-text-counter by a2xchip</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="https://raw2.github.com/a2xchip/a2x-text-counter/master/css/a2x-text-counter.jquery.plugin.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
@@ -40,6 +41,9 @@
 
 <div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'#element'</span><span class="p">).</span><span class="nx">a2xCounter</span><span class="p">();</span>
 </pre></div>
+      <p>
+        <input type="text" id="testtext"/>
+      </p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/a2xchip">a2xchip</a></p>
@@ -47,6 +51,9 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+    <script src="https://raw2.github.com/a2xchip/a2x-text-counter/master/js/a2x-text-counter.jquery.plugin.js"></script>
+    <script>
+      $('testtext').a2xCounter();
+    </script>
   </body>
 </html>

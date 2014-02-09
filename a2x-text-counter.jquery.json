@@ -19,6 +19,7 @@
 "url": "http://opensource.org/licenses/MIT"
 }
 ],
+"homepage": "http://a2xchip.github.io/a2x-text-counter/",
 "dependencies": {
 "jquery": ">=1.10.2"
 }

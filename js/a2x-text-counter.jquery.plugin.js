@@ -1,17 +1,15 @@
 $.fn.a2xCounter = function() {
-  var max, parent, counter;
+  var max, counter;
   max= this.attr('maxlength');
-  counterEl = '<div class="a2x-counter"></div>';
-  this.after(counterEl);
+  this.after('<div class="a2x-counter"></div>');
   counter = this.next();
 
   this.on('keyup', function(e) {
     if (max > 0) {
-      counter.html(max - $(this).val().length);
+      counter.html(max - ($(this).val().length + ($(this).val().split("\n").length - 1)));
     } else {
-      counter.html($(this).val().length);
+      counter.html($(this).val().length + ($(this).val().split("\n").length - 1));
     }
-
   });
 
   if (max > 0) {

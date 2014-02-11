@@ -27,3 +27,6 @@ You can install it via bower by executing `bower install a2x-text-counter`.
 
 http://a2xchip.github.io/a2x-text-counter/
 
+# Thanks for assistance and contributions
+
+[@Frederick-S](https://github.com/Frederick-S)

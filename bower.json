@@ -1,0 +1,28 @@
+{
+  "name": "a2x-text-counter",
+  "version": "0.1.0",
+  "homepage": "http://a2xchip.github.io/a2x-text-counter/",
+  "authors": [
+    "Alexander Jeliuc <jeliucalexandr@gmail.com>"
+  ],
+  "description": "jQuery plugin which counts the number of entered letters or countdowns them.",
+  "main": "js/a2x-text-counter.jquery.plugin.js",
+  "keywords": [
+    "counter",
+    "letter",
+    "counter",
+    "countdown",
+    "maxlength"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.10.0"
+  }
+}

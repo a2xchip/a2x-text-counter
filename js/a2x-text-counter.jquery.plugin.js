@@ -1,6 +1,6 @@
 $.fn.a2xCounter = function() {
   var max, counter;
-  max= this.attr('maxlength');
+  max = this.attr('maxlength');
   this.after('<div class="a2x-counter"></div>');
   counter = this.next();
 
@@ -13,7 +13,7 @@ $.fn.a2xCounter = function() {
         counter.html(0);
       }
     } else {
-      counter.html($(this).val().length + ($(this).val().split("\n").length - 1));
+      counter.html(textLength);
     }
   });
 

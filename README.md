@@ -10,19 +10,21 @@ You can install it via bower by executing `bower install a2x-text-counter`.
 
 # Usage
 ```html
+<html>
 <head>
   <link rel="stylesheet" href="bower_components/a2x-text-counter/css/a2x-text-counter.jquery.plugin.css"/>
 </head>
-...
 <body>
   <input type="text" id="element"/>
-...
   <script src="http://code.jquery.com/jquery.js"></script>
   <script src="bower_components/a2x-text-counter/js/a2x-text-counter.jquery.plugin.js"></script>
   <script>
-    $('#element').a2xCounter();
+    $(document).ready(function() {
+      $('#element').a2xCounter();
+    });
   </script>
 </body>
+</html>
 ```
 # Home page with demo
 
